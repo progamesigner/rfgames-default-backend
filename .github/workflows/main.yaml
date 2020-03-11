@@ -27,6 +27,5 @@ jobs:
         name: progamesigner/rfgames-default-backend
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        extra_build_params: --build-arg BUILD_TARGET=apply
         tagging: true
       if: "contains(github.ref, 'refs/tags/v')"
