@@ -1,4 +1,4 @@
-FROM progamesigner/ingress-default-backend:1.2.2
+FROM docker.pkg.github.com/progamesigner/ingress-default-backend/ingress-default-backend:1.2.2
 
 LABEL org.opencontainers.image.authors "Yang Sheng Han <https://progamesigner.com>"
 LABEL org.opencontainers.image.description "A default backend for RFGames."
